@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		BA0F73B326C316AE000AFDD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F73B226C316AE000AFDD7 /* AppDelegate.swift */; };
 		BA0F73B526C316AE000AFDD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F73B426C316AE000AFDD7 /* SceneDelegate.swift */; };
-		BA0F73B726C316AE000AFDD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F73B626C316AE000AFDD7 /* ViewController.swift */; };
 		BA0F73BA26C316AE000AFDD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0F73B826C316AE000AFDD7 /* Main.storyboard */; };
 		BA0F73BD26C316AE000AFDD7 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA0F73BB26C316AE000AFDD7 /* ToDoList.xcdatamodeld */; };
 		BA0F73BF26C316AF000AFDD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0F73BE26C316AF000AFDD7 /* Assets.xcassets */; };
 		BA0F73C226C316AF000AFDD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0F73C026C316AF000AFDD7 /* LaunchScreen.storyboard */; };
+		BA0F73CA26C3AEB0000AFDD7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F73C926C3AEB0000AFDD7 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA0F73AF26C316AD000AFDD7 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0F73B226C316AE000AFDD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA0F73B426C316AE000AFDD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA0F73B626C316AE000AFDD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA0F73B926C316AE000AFDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA0F73BC26C316AE000AFDD7 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		BA0F73BE26C316AF000AFDD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA0F73C126C316AF000AFDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA0F73C326C316AF000AFDD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0F73C926C3AEB0000AFDD7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				BA0F73B226C316AE000AFDD7 /* AppDelegate.swift */,
 				BA0F73B426C316AE000AFDD7 /* SceneDelegate.swift */,
-				BA0F73B626C316AE000AFDD7 /* ViewController.swift */,
 				BA0F73B826C316AE000AFDD7 /* Main.storyboard */,
+				BA0F73C926C3AEB0000AFDD7 /* TableViewController.swift */,
 				BA0F73BE26C316AF000AFDD7 /* Assets.xcassets */,
 				BA0F73C026C316AF000AFDD7 /* LaunchScreen.storyboard */,
 				BA0F73C326C316AF000AFDD7 /* Info.plist */,
@@ -140,10 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA0F73B726C316AE000AFDD7 /* ViewController.swift in Sources */,
 				BA0F73B326C316AE000AFDD7 /* AppDelegate.swift in Sources */,
 				BA0F73B526C316AE000AFDD7 /* SceneDelegate.swift in Sources */,
 				BA0F73BD26C316AE000AFDD7 /* ToDoList.xcdatamodeld in Sources */,
+				BA0F73CA26C3AEB0000AFDD7 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
